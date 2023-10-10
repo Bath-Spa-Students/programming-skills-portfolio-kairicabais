@@ -7,6 +7,7 @@ print ("abc","xyz",23849)
 
 age = input ("your age")
 print (age)
+
 name1 = input ("Enter University Name")
 print (name1)
 
