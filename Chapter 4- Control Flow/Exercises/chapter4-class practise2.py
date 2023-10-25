@@ -9,7 +9,7 @@
 # only if you qyalify both conditions, you can proceed to get bubble tea!
 
 budget = int(input("Enter your budget:"))
-cravings_rating = float(input("On a scale of 1-5, how bad do you want buble tea: "))
+cravings_rating = float(input("On a scale of 1-5, how bad do you want bubble tea: "))
 
 if budget > 12:
  if cravings_rating >=3:
