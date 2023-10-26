@@ -1,5 +1,7 @@
 # chapter4, class practise 1 example of control structures
 
+
+# this is an example of a simple structure
 bubble_tea = float(input("Enter amount of bubble teas: "))
 bonus = 0
 
