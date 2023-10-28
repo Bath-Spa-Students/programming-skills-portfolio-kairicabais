@@ -1,8 +1,10 @@
-#String Concatenation
-var1 = "Name"
-var2 = "Age"
-var3 = "School"
-var4 = "Country"
+# Chapter 1, practise 5: String Concatenation
+
+
+var1 = "Place"
+var2 = "Animal"
+var3 = "Name"
+var4 = "Thing"
 
 # format function is used here to 
 # combine the string
