@@ -10,6 +10,7 @@ rivers = {
     }
 
 
+
 #* Use a loop to print a sentence about each river, such as The Nile runs through Egypt.
 for river, country in rivers.items():
     print("The " + "River " + river.title() + " flows through " + country.title() + ".")
