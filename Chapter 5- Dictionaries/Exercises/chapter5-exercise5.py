@@ -41,4 +41,3 @@ for pet in pets:
     print("\nEverything I know about " + pet['name'].title() + ":")
     for key, value in pet.items():
         print("\t" + key + ": " + str(value))
-
