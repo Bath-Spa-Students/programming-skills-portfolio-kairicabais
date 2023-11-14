@@ -1,9 +1,11 @@
 # Chapter 7, Exercise 1:   Message  
 
+# def function_name()
+
 # Write a function called display_message() that prints one sentence telling everyone what you are learning about in this chapter.
 def display_message():
     """Display a message about what I'm learning."""
-    msg = "I'm learning to store code in functions."
+    msg = "In this chapter, I'll be learning about functions ."
     print(msg)
 
 display_message()
