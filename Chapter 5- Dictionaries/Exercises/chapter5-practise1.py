@@ -8,8 +8,6 @@ dictionary = {}
 print(dictionary)
 
 
-
-
 # (1,2,3) index of 1 is 0, index of 2 is 1, index of 3 is 2
 # dictionary stores data in the key + value pair. You cannot chamge keys you can change value. 
 
@@ -18,7 +16,6 @@ example = {'drinks' : 'bubble tea' ,
            'mall' : 'Dubai Festival Center' ,
            'animal' : 'penguins'}
 print(example)
-
 
 
 
