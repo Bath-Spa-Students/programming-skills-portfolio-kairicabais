@@ -1,6 +1,5 @@
 # Exercise 3: Alien Colors #3 
 
-
 ### Turn your if-else chain from Exercise 5-4 into an if-elifelse chain.
 #  Write three versions of this program, making sure each message is printed for the appropriate color alien. In this, I decided not to include a user input.
 
