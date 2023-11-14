@@ -1,21 +1,22 @@
-# chapter 4, practise 3 based on chapter 4, exercise 2
+# Chapter 4, class practise 3: Simple Calculater User input
 
-print("\tTry this extra mini game that runs on the if block and another that runs the else block\n")
+# Conditional if-elif-else simple calculator with user input. My calculator lacks decimal input.
+num1 = input("First Number:\n")
+operator = input("Operator (+, -, *, /):\n")
+num2 = input("Second Number:\n")
 
-## Write one version of this program that runs the if block and another that runs the else block.
-work = 'yes'
+num1 = float(num1)
+num2 = float(num2)
 
-work = (input("Should I work today? yes or no "))
-if work == 'yes':
-    print("you get $100! Work again tomorrow to earn $200")
-else:
-    print("You don't get money... You lost $100 today")
+out = None
 
-    work = 'no'
-
-work = (input("Should I work tomorrow? yes or no "))
-
-if work == 'no':
-    print("You should reconsider to earn $100")
-else:
-    print("You deserve it! You just earned $200 in total!")
+if operator == "+":
+    out =  num1 + num2
+elif operator == "-":
+    out = num1 - num2
+elif operator == "*":
+    out = num1 * num2
+elif operator == "/":
+    out = num1 / num2
+    
+print("Answer: " + str(out))
